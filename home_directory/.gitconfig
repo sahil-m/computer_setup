@@ -1,0 +1,8 @@
+[core]
+	editor = code --wait
+[pull]
+	rebase = true
+[alias]
+	ci = commit -a -m
+	st = status
+	logp = log --branches --tags --remotes --graph --decorate --oneline
